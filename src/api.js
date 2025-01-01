@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3500/api";
+const BASE_URL = "https://entnt-backend-2inq.onrender.com/api";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,

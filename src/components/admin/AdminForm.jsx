@@ -113,7 +113,7 @@ const AdminForm = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:3500/api/admin/add-company",
+        "https://entnt-backend-2inq.onrender.com/api/admin/add-company",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
