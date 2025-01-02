@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://entnt-backend-dsaq.onrender.com/api";
+const BASE_URL = "https://entnt-backend-2inq.onrender.com/api";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
